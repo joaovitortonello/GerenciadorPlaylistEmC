@@ -40,6 +40,16 @@
 
 void menu() {
 
-	ListaD *ListaNormal =
+	ListaS *Playlist = (ListaS*)malloc(sizeof(ListaS));
+
+	int op = 1;
+
+	printf("======== MENU ========\n");
+	printf("<1> ADICIONAR MÚSICA\n");
+	printf("<2> REMOVER MÚSICA\n");
+	printf("<3> MOVER MÚSICA\n");
+	printf("<4> BUSCAR ARTISTA\n");
+	printf("<5> EMBARALHAR");
+	
 	
 }
